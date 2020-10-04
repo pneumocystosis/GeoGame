@@ -7,7 +7,7 @@ answer = ""
 staus = ""
 listcountries, listcapitals, listcontinents = [], [], []
 #open file and setup
-with open(r"C:\Users\hugop\1_NSI\jeu capitals\country-capitals.csv") as f:
+with open("country-capitals.csv") as f:
     csv_reader = csv.reader(f)
     line_count = 0
     list1 = list(csv.reader(f))
